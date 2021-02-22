@@ -34,6 +34,7 @@ vcpkg_configure_cmake(
         -DwxUSE_LIBPNG=sys
         -DwxUSE_LIBTIFF=sys
         -DwxUSE_STL=ON
+        -DwxUSE_UNSAFE_WXSTRING_CONV=OFF
         -DwxBUILD_DISABLE_PLATFORM_LIB_DIR=ON
         ${OPTIONS}
 )
